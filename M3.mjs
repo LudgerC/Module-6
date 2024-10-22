@@ -20,9 +20,16 @@ function index(naam, namen)
         if(naam == namen[i])
         {
             console.log("Het naam " + namen[i] + " is het " + i +"de naam van het lijst.");
+            found = true;
         }
         
         i++;
 
     }while(i < namen.length);
+
+    if(!found)
+    {
+        console.log("-1");
+    }
+
 }
