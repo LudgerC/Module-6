@@ -20,9 +20,9 @@ let veld = [
   ];
 
 
-shot(x, y);
+shoot(x, y);
 
-function shot(x, y)
+function shoot(x, y)
 {
   veld[x][y] = "*";
   console.log("U heeft geschoten op x positie " + x + " en op y " + y);
