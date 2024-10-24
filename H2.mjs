@@ -22,9 +22,9 @@ let veld = [
 
 shot(x, y);
 
-function shot(x, y){
-veld[x][y] = "*";
-console.log("U heeft geschoten op x positie " + x + " en op y " + y);
-console.log(veld);
-
+function shot(x, y)
+{
+  veld[x][y] = "*";
+  console.log("U heeft geschoten op x positie " + x + " en op y " + y);
+  console.log(veld);
 }
